@@ -37,6 +37,10 @@ class TestProduct(unittest.TestCase):
         self.assertEqual(products[3].collection, "smoothie")
         self.assertEqual(products[3].ingredient_ids, [3, 7, 10, 11, 12])
 
+    def test_to_json(self):
+        p = Product(1, "Mousse au chocolat", "Dessert", [7, 13, 45])
+        self.assertEqual(p.to_dict(), {'id': 1, 'name': 'Mousse au chocolat', 'collection': 'Dessert', 'ingredient_ids': [7, 13, 45]})
+
 
 if __name__ == '__main__':
     unittest.main()

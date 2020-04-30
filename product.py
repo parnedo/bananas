@@ -19,6 +19,14 @@ class Product:
         ''' By default order by id because two products could have the same name '''
         return self.id < other.id
 
+    def to_dict(self):
+        return  {
+            'id': self.id,
+            'name': self.name,
+            'collection': self.collection,
+            'ingredient_ids': self.ingredient_ids
+        }
+
     @staticmethod
     def search_contains_ingredient(ingredient_id: int) -> List[Product]:
         '''

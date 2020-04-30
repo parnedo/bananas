@@ -21,11 +21,15 @@ install dependencies
 > pip install --no-cache-dir --no-deps -r requirements.txt
 
 I like to add --no-cache-dir and --no-deps because I have had bad surprises in the past with new dependencies being pulled and messing everything
-then execute the server that will run in http://localhost:8080
+
+Then execute the server that will run in http://localhost:8080
 
 > export FLASK_ENV=development
+
 > python tests/test_product.py
+
 > python tests/test_ingredient.py
+
 > python app.py
 
 you can then use curl :

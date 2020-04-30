@@ -3,10 +3,15 @@ Searching the lost banana and maybe get a job at a delicious company
 
 # Why this repo?
 I've created this git hub so you can see the evolution of the coding.
+
 I started by the fastest implementation to get a proof of concept, it took me around 5-10 minutes
+
 I continued by estructuring the code in classes and adding some documentation
+
 I added more unti tests
+
 I transformed the main script in a small flask app that can search for products that contain an ingredient ( not just organic bananas )
+
 
 You can see all those steps in teh commits together with the time it took me to implement it (if that is interesting to you).
 

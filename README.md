@@ -1,5 +1,5 @@
 # bananas
-Searching the lost banana and maybe get a job at a delicious company
+Searching the lost banana and maybe get a job at a delicious company ;)
 
 # Why this repo?
 I've created this git hub so you can see the evolution of the coding.
